@@ -7,7 +7,7 @@ The analysis is a rather crude way of estimating hold phases in the sign. It mak
 
 As a sign video is given to the script, each frame is analyzed and compared pairwise for changes. The first peak (i.e. a lot of changes between frames) is assumed to be the initial transport movement before the sign starts. The script then looks for negative peaks (i.e. small changes ≈ hold phases) and saves these frames as representative phases of the sign. 
 
-The example below shows the sign BEAR in Swedish Sign Language from the [Swedish Sign Language Dictionary](http://teckensprakslexikon.su.se) with the changes between frames plotted simultaneously with [Matplotlib](https://matplotlib.org).
+The example below shows the sign BEAR in Swedish Sign Language (SSL) from the [Swedish Sign Language Dictionary](http://teckensprakslexikon.su.se) with the changes between frames plotted simultaneously with [Matplotlib](https://matplotlib.org).
 
 ![Example](https://github.com/borstell/make_sign_stills/blob/master/bjorn_changes.gif)
 
