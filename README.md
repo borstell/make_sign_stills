@@ -13,7 +13,7 @@ The example below shows the sign BEAR in Swedish Sign Language from the [Swedish
 
 With this analysis, two negative peaks are recognized as hold phases: the first one after the inital positive peak (first transport movement) and then the end of the sign. The resulting image still is shown below.
 
-![Still](https://github.com/borstell/make_sign_stills/blob/master/bjorn.jpg)
+![Still](https://github.com/borstell/make_sign_stills/blob/master/bjorn_still.jpg)
 
 Overall, the script performs fairly well on simplex signs (i.e. no compounds), as can be seen in the image below in which each of five randomly selected signs is illustrated with the manually selected frames found in the [Swedish Sign Language Dictionary](http://teckensprakslexikon.su.se) for the entries (left column) compared to the automatically estimated frames by this model (right column).
 
